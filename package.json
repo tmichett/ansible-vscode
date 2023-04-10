@@ -1,0 +1,22 @@
+{
+	"name": "ansible-snippets",
+	"displayName": "Ansible Snippets",
+	"description": "Snippets for Ansible Playbooks and Tasks",
+	"version": "0.0.1",
+	"publisher": "TravisMichette",
+	"repository": "https://github.com/tmichett/ansible-vscode",
+	"engines": {
+		"vscode": "^1.28.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "ansible",
+				"path": "./snippets.json"
+			}
+		]
+	}
+}

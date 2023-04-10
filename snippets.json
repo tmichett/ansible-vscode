@@ -1,0 +1,32 @@
+{
+
+	// Snippets for Travis's Ansible Playbooks Template
+	// Used for generating playbooks and tasks
+	
+		"Ansible Playbook": {
+			"scope": "ansible, yaml",
+			"prefix": "ansible_playbook",
+			"body": [
+			   "---",
+			   "name: Playbook Name",
+			   "hosts: Ansible_Hosts",
+			   "tasks:,
+			],
+			"description": "Playbook Skeleton",
+		},
+	
+		"Ansible Installation Task": {
+			"scope": "ansible,yaml",
+			"prefix": "ansible_yum",
+			"body": [
+				"name: Install XXX software",
+			   "yum:",
+			   "  name: pkg_name",
+			   "  state: latest",
+			],
+			"description": "Ansible Yum Module",
+	}
+	
+
+	
+	}
